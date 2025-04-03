@@ -20,5 +20,3 @@ Hue Room Theme synchronizes your Philips Hue, LIFX, or Yeelight smart lights wit
 - Python 3.7+
 - Smart lights (Hue, LIFX, or Yeelight)
 - Linux users: ImageMagick (for screenshots)
-
-### Setup
