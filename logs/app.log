@@ -1,0 +1,470 @@
+2025-04-04 01:25:04,084 - root - INFO - Starting Wallpaper Light application
+2025-04-04 01:25:04,095 - root - INFO - Initializing wallpaper capture for Windows
+2025-04-04 01:25:04,096 - root - INFO - Initializing AI-based color analyzer to extract 5 colors using kmeans
+2025-04-04 01:25:04,097 - root - INFO - Initializing light controller for hue lights
+2025-04-04 01:25:04,130 - phue - INFO - Attempting to connect to the bridge...
+2025-04-04 01:25:04,131 - phue - INFO - Error opening config file, will attempt bridge registration
+2025-04-04 01:25:14,142 - phue - ERROR - POST Request to 192.168.1.100/api timed out.
+Traceback (most recent call last):
+  File "C:\Users\sooda\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\phue.py", line 735, in connect
+    with open(self.config_file_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\sooda\\.python_hue'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sooda\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\phue.py", line 652, in request
+    connection.request(mode, address, json.dumps(data))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+2025-04-04 01:25:14,147 - root - CRITICAL - Failed to initialize application: (None, 'POST Request to 192.168.1.100/api timed out.')
+2025-04-04 01:33:39,033 - root - INFO - Ready
+2025-04-04 01:33:45,690 - root - INFO - Initializing wallpaper capture for Windows
+2025-04-04 01:33:45,691 - root - INFO - Initializing AI-based color analyzer to extract 5 colors using kmeans
+2025-04-04 01:35:37,198 - root - INFO - Application stopped
+2025-04-04 01:35:41,369 - root - ERROR - Error applying harmony: name 'colorsys' is not defined
+2025-04-04 01:36:16,234 - root - INFO - Ready
+2025-04-04 01:37:15,570 - root - INFO - Ready
+2025-04-04 01:37:20,732 - root - INFO - Initializing wallpaper capture for Windows (Screenshot mode: True)
+2025-04-04 01:37:20,732 - root - INFO - Initializing AI-based color analyzer to extract 5 colors using kmeans
+2025-04-04 01:37:20,733 - root - INFO - Initializing light controller for hue lights
+2025-04-04 01:37:20,733 - root - INFO - Running in demo mode - no actual lights will be controlled
+2025-04-04 01:37:20,734 - root - INFO - Application running
+2025-04-04 01:37:20,735 - root - INFO - Capturing image...
+2025-04-04 01:37:22,472 - root - INFO - Analyzing colors...
+2025-04-04 01:37:22,792 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #371f34
+2025-04-04 01:37:22,792 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #332431
+2025-04-04 01:37:22,793 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #371f34
+2025-04-04 01:37:22,793 - root - INFO - Colors updated
+2025-04-04 01:37:24,809 - root - INFO - Capturing image...
+2025-04-04 01:37:24,843 - root - INFO - Analyzing colors...
+2025-04-04 01:37:25,024 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #371f34
+2025-04-04 01:37:25,024 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #34371f
+2025-04-04 01:37:25,024 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #1f3337
+2025-04-04 01:37:25,025 - root - INFO - Colors updated
+2025-04-04 01:37:27,038 - root - INFO - Capturing image...
+2025-04-04 01:37:27,078 - root - INFO - Analyzing colors...
+2025-04-04 01:37:27,249 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #371f35
+2025-04-04 01:37:27,250 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #35371f
+2025-04-04 01:37:27,250 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #1f3537
+2025-04-04 01:37:27,251 - root - INFO - Colors updated
+2025-04-04 01:37:29,265 - root - INFO - Capturing image...
+2025-04-04 01:37:29,293 - root - INFO - Analyzing colors...
+2025-04-04 01:37:29,456 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #371f34
+2025-04-04 01:37:29,457 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #1f3722
+2025-04-04 01:37:29,457 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #371f2c
+2025-04-04 01:37:29,458 - root - INFO - Colors updated
+2025-04-04 01:37:31,465 - root - INFO - Capturing image...
+2025-04-04 01:37:31,492 - root - INFO - Analyzing colors...
+2025-04-04 01:37:31,686 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #4b283d
+2025-04-04 01:37:31,687 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #3d4b28
+2025-04-04 01:37:31,687 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #283e4b
+2025-04-04 01:37:31,688 - root - INFO - Colors updated
+2025-04-04 01:37:33,690 - root - INFO - Capturing image...
+2025-04-04 01:37:33,740 - root - INFO - Analyzing colors...
+2025-04-04 01:37:33,930 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #771718
+2025-04-04 01:37:33,931 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #187717
+2025-04-04 01:37:33,931 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #171877
+2025-04-04 01:37:33,932 - root - INFO - Colors updated
+2025-04-04 01:37:35,939 - root - INFO - Capturing image...
+2025-04-04 01:37:35,976 - root - INFO - Analyzing colors...
+2025-04-04 01:37:36,122 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #4b283d
+2025-04-04 01:37:36,122 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #284b35
+2025-04-04 01:37:36,122 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #4b2833
+2025-04-04 01:37:36,123 - root - INFO - Colors updated
+2025-04-04 01:37:38,134 - root - INFO - Capturing image...
+2025-04-04 01:37:38,188 - root - INFO - Analyzing colors...
+2025-04-04 01:37:38,414 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #4b283d
+2025-04-04 01:37:38,415 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #284b35
+2025-04-04 01:37:38,415 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #4b2833
+2025-04-04 01:37:38,415 - root - INFO - Colors updated
+2025-04-04 01:37:40,425 - root - INFO - Capturing image...
+2025-04-04 01:37:40,476 - root - INFO - Analyzing colors...
+2025-04-04 01:37:40,642 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #1b101e
+2025-04-04 01:37:40,642 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #121e10
+2025-04-04 01:37:40,642 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #1e101b
+2025-04-04 01:37:40,644 - root - INFO - Colors updated
+2025-04-04 01:37:42,651 - root - INFO - Capturing image...
+2025-04-04 01:37:42,695 - root - INFO - Analyzing colors...
+2025-04-04 01:37:42,870 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #472744
+2025-04-04 01:37:42,870 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #47273a
+2025-04-04 01:37:42,871 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #472731
+2025-04-04 01:37:42,872 - root - INFO - Colors updated
+2025-04-04 01:37:44,890 - root - INFO - Capturing image...
+2025-04-04 01:37:44,939 - root - INFO - Analyzing colors...
+2025-04-04 01:37:45,119 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2a2a2c
+2025-04-04 01:37:45,119 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c2c2a
+2025-04-04 01:37:45,120 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2a2a2c
+2025-04-04 01:37:45,121 - root - INFO - Colors updated
+2025-04-04 01:37:47,138 - root - INFO - Capturing image...
+2025-04-04 01:37:47,209 - root - INFO - Analyzing colors...
+2025-04-04 01:37:47,408 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2d
+2025-04-04 01:37:47,409 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2d2d2b
+2025-04-04 01:37:47,409 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2b2b2d
+2025-04-04 01:37:47,410 - root - INFO - Colors updated
+2025-04-04 01:37:49,416 - root - INFO - Capturing image...
+2025-04-04 01:37:49,451 - root - INFO - Analyzing colors...
+2025-04-04 01:37:49,620 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:37:49,620 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c2b2b
+2025-04-04 01:37:49,621 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2c2c2b
+2025-04-04 01:37:49,621 - root - INFO - Colors updated
+2025-04-04 01:37:51,625 - root - INFO - Capturing image...
+2025-04-04 01:37:51,666 - root - INFO - Analyzing colors...
+2025-04-04 01:37:51,829 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:37:51,829 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c2b2b
+2025-04-04 01:37:51,830 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2c2c2b
+2025-04-04 01:37:51,830 - root - INFO - Colors updated
+2025-04-04 01:37:53,837 - root - INFO - Capturing image...
+2025-04-04 01:37:53,881 - root - INFO - Analyzing colors...
+2025-04-04 01:37:54,044 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:37:54,045 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2d2d33
+2025-04-04 01:37:54,045 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2d2d33
+2025-04-04 01:37:54,046 - root - INFO - Colors updated
+2025-04-04 01:37:56,059 - root - INFO - Capturing image...
+2025-04-04 01:37:56,097 - root - INFO - Analyzing colors...
+2025-04-04 01:37:56,256 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:37:56,256 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2b2b2c
+2025-04-04 01:37:56,257 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2b2b2c
+2025-04-04 01:37:56,257 - root - INFO - Colors updated
+2025-04-04 01:37:58,269 - root - INFO - Capturing image...
+2025-04-04 01:37:58,314 - root - INFO - Analyzing colors...
+2025-04-04 01:37:58,501 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:37:58,502 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2d2d33
+2025-04-04 01:37:58,502 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2d2d33
+2025-04-04 01:37:58,503 - root - INFO - Colors updated
+2025-04-04 01:38:00,508 - root - INFO - Capturing image...
+2025-04-04 01:38:00,573 - root - INFO - Analyzing colors...
+2025-04-04 01:38:00,939 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:38:00,940 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c2b2b
+2025-04-04 01:38:00,944 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2c2c2b
+2025-04-04 01:38:00,946 - root - INFO - Colors updated
+2025-04-04 01:38:02,962 - root - INFO - Capturing image...
+2025-04-04 01:38:03,031 - root - INFO - Analyzing colors...
+2025-04-04 01:38:03,480 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2a2c
+2025-04-04 01:38:03,481 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2a2c2a
+2025-04-04 01:38:03,481 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2b2a2c
+2025-04-04 01:38:03,483 - root - INFO - Colors updated
+2025-04-04 01:38:05,493 - root - INFO - Capturing image...
+2025-04-04 01:38:05,530 - root - INFO - Analyzing colors...
+2025-04-04 01:38:05,719 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:38:05,720 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2b2b2c
+2025-04-04 01:38:05,720 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2b2b2c
+2025-04-04 01:38:05,721 - root - INFO - Colors updated
+2025-04-04 01:38:07,734 - root - INFO - Capturing image...
+2025-04-04 01:38:07,811 - root - INFO - Analyzing colors...
+2025-04-04 01:38:08,279 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2c2b2c
+2025-04-04 01:38:08,280 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c2b2b
+2025-04-04 01:38:08,282 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2c2b2b
+2025-04-04 01:38:08,283 - root - INFO - Colors updated
+2025-04-04 01:38:10,287 - root - INFO - Capturing image...
+2025-04-04 01:38:10,338 - root - INFO - Analyzing colors...
+2025-04-04 01:38:10,495 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:38:10,495 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c2b2b
+2025-04-04 01:38:10,495 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2b2c2b
+2025-04-04 01:38:10,496 - root - INFO - Colors updated
+2025-04-04 01:38:12,511 - root - INFO - Capturing image...
+2025-04-04 01:38:12,548 - root - INFO - Analyzing colors...
+2025-04-04 01:38:12,704 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:38:12,704 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c2b2b
+2025-04-04 01:38:12,705 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2b2c2b
+2025-04-04 01:38:12,705 - root - INFO - Colors updated
+2025-04-04 01:38:14,710 - root - INFO - Capturing image...
+2025-04-04 01:38:14,774 - root - INFO - Analyzing colors...
+2025-04-04 01:38:15,223 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2a2c
+2025-04-04 01:38:15,225 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2b2a2c
+2025-04-04 01:38:15,225 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2c2a2b
+2025-04-04 01:38:15,226 - root - INFO - Colors updated
+2025-04-04 01:38:17,235 - root - INFO - Capturing image...
+2025-04-04 01:38:17,283 - root - INFO - Analyzing colors...
+2025-04-04 01:38:17,463 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2c2b2d
+2025-04-04 01:38:17,463 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #302d33
+2025-04-04 01:38:17,464 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #302d33
+2025-04-04 01:38:17,465 - root - INFO - Colors updated
+2025-04-04 01:38:19,472 - root - INFO - Capturing image...
+2025-04-04 01:38:19,515 - root - INFO - Analyzing colors...
+2025-04-04 01:38:19,702 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2c2b2c
+2025-04-04 01:38:19,703 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c2c2b
+2025-04-04 01:38:19,703 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2b2c2c
+2025-04-04 01:38:19,704 - root - INFO - Colors updated
+2025-04-04 01:38:21,708 - root - INFO - Capturing image...
+2025-04-04 01:38:21,752 - root - INFO - Analyzing colors...
+2025-04-04 01:38:21,952 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2c2b2c
+2025-04-04 01:38:21,953 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c2c2b
+2025-04-04 01:38:21,953 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2b2c2c
+2025-04-04 01:38:21,954 - root - INFO - Colors updated
+2025-04-04 01:38:23,965 - root - INFO - Capturing image...
+2025-04-04 01:38:23,994 - root - INFO - Analyzing colors...
+2025-04-04 01:38:24,182 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #4b283d
+2025-04-04 01:38:24,184 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #284b35
+2025-04-04 01:38:24,184 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #4b2833
+2025-04-04 01:38:24,185 - root - INFO - Colors updated
+2025-04-04 01:38:26,197 - root - INFO - Capturing image...
+2025-04-04 01:38:26,228 - root - INFO - Analyzing colors...
+2025-04-04 01:38:26,415 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #4b283d
+2025-04-04 01:38:26,416 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #284b35
+2025-04-04 01:38:26,416 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #4b2833
+2025-04-04 01:38:26,416 - root - INFO - Colors updated
+2025-04-04 01:38:28,427 - root - INFO - Capturing image...
+2025-04-04 01:38:28,465 - root - INFO - Analyzing colors...
+2025-04-04 01:38:28,700 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2b2b2c
+2025-04-04 01:38:28,701 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2d2d33
+2025-04-04 01:38:28,701 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2d2d33
+2025-04-04 01:38:28,702 - root - INFO - Colors updated
+2025-04-04 01:38:30,714 - root - INFO - Capturing image...
+2025-04-04 01:38:30,765 - root - INFO - Analyzing colors...
+2025-04-04 01:38:31,024 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2a2a2a
+2025-04-04 01:38:31,024 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2a2a2a
+2025-04-04 01:38:31,025 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2a2a2a
+2025-04-04 01:38:31,026 - root - INFO - Colors updated
+2025-04-04 01:39:11,076 - root - INFO - Ready
+2025-04-04 01:39:14,356 - root - INFO - Initializing wallpaper capture for Windows (Screenshot mode: True)
+2025-04-04 01:39:14,357 - root - INFO - Initializing AI-based color analyzer to extract 5 colors using kmeans
+2025-04-04 01:39:14,357 - root - INFO - Initializing light controller for hue lights
+2025-04-04 01:39:14,357 - root - INFO - Running in demo mode - no actual lights will be controlled
+2025-04-04 01:39:14,358 - root - INFO - Application running
+2025-04-04 01:39:14,359 - root - INFO - Capturing image...
+2025-04-04 01:39:15,332 - root - INFO - Analyzing colors...
+2025-04-04 01:39:15,634 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #322c2e
+2025-04-04 01:39:15,635 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #322c2c
+2025-04-04 01:39:15,635 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #322d2c
+2025-04-04 01:39:15,636 - root - INFO - Colors updated
+2025-04-04 01:39:17,649 - root - INFO - Capturing image...
+2025-04-04 01:39:17,681 - root - INFO - Analyzing colors...
+2025-04-04 01:39:17,839 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #332c2e
+2025-04-04 01:39:17,840 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2c3331
+2025-04-04 01:39:17,841 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #332c2c
+2025-04-04 01:39:17,841 - root - INFO - Colors updated
+2025-04-04 01:39:19,855 - root - INFO - Capturing image...
+2025-04-04 01:39:19,897 - root - INFO - Analyzing colors...
+2025-04-04 01:39:20,118 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #341d33
+2025-04-04 01:39:20,119 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #341d2c
+2025-04-04 01:39:20,119 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #341d25
+2025-04-04 01:39:20,120 - root - INFO - Colors updated
+2025-04-04 01:39:22,128 - root - INFO - Capturing image...
+2025-04-04 01:39:22,170 - root - INFO - Analyzing colors...
+2025-04-04 01:39:22,371 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #442846
+2025-04-04 01:39:22,371 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #463528
+2025-04-04 01:39:22,372 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #294628
+2025-04-04 01:39:22,372 - root - INFO - Colors updated
+2025-04-04 01:39:24,387 - root - INFO - Capturing image...
+2025-04-04 01:39:24,431 - root - INFO - Analyzing colors...
+2025-04-04 01:39:24,644 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #462846
+2025-04-04 01:39:24,645 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #46283c
+2025-04-04 01:39:24,645 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #462834
+2025-04-04 01:39:24,645 - root - INFO - Colors updated
+2025-04-04 01:39:26,656 - root - INFO - Capturing image...
+2025-04-04 01:39:26,697 - root - INFO - Analyzing colors...
+2025-04-04 01:39:26,899 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #462846
+2025-04-04 01:39:26,900 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #46283c
+2025-04-04 01:39:26,900 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #462834
+2025-04-04 01:39:26,901 - root - INFO - Colors updated
+2025-04-04 01:39:28,917 - root - INFO - Capturing image...
+2025-04-04 01:39:28,943 - root - INFO - Analyzing colors...
+2025-04-04 01:39:29,129 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #472746
+2025-04-04 01:39:29,129 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #274728
+2025-04-04 01:39:29,130 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #47273c
+2025-04-04 01:39:29,130 - root - INFO - Colors updated
+2025-04-04 01:39:31,137 - root - INFO - Capturing image...
+2025-04-04 01:39:31,177 - root - INFO - Analyzing colors...
+2025-04-04 01:39:31,360 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #472746
+2025-04-04 01:39:31,360 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #47273c
+2025-04-04 01:39:31,360 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #472733
+2025-04-04 01:39:31,361 - root - INFO - Colors updated
+2025-04-04 01:39:33,376 - root - INFO - Capturing image...
+2025-04-04 01:39:33,410 - root - INFO - Analyzing colors...
+2025-04-04 01:39:33,594 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #472746
+2025-04-04 01:39:33,595 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #332432
+2025-04-04 01:39:33,595 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #472746
+2025-04-04 01:39:33,596 - root - INFO - Colors updated
+2025-04-04 01:39:33,985 - root - INFO - Capture mode set to: Wallpaper
+2025-04-04 01:39:35,604 - root - INFO - Capturing image...
+2025-04-04 01:39:35,649 - root - INFO - Analyzing colors...
+2025-04-04 01:39:35,795 - root - INFO - Capture mode set to: Screenshot
+2025-04-04 01:39:35,834 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #472946
+2025-04-04 01:39:35,835 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #473929
+2025-04-04 01:39:35,835 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #29472a
+2025-04-04 01:39:35,836 - root - INFO - Colors updated
+2025-04-04 01:39:37,782 - root - ERROR - Error applying harmony: name 'colorsys' is not defined
+2025-04-04 01:39:37,843 - root - INFO - Capturing image...
+2025-04-04 01:39:37,881 - root - INFO - Analyzing colors...
+2025-04-04 01:39:38,063 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #462846
+2025-04-04 01:39:38,063 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #46283c
+2025-04-04 01:39:38,063 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #462834
+2025-04-04 01:39:38,064 - root - INFO - Colors updated
+2025-04-04 01:39:40,076 - root - INFO - Capturing image...
+2025-04-04 01:39:40,113 - root - INFO - Analyzing colors...
+2025-04-04 01:39:40,309 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #472946
+2025-04-04 01:39:40,309 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #454729
+2025-04-04 01:39:40,309 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #294647
+2025-04-04 01:39:40,310 - root - INFO - Colors updated
+2025-04-04 01:39:42,458 - root - INFO - Capturing image...
+2025-04-04 01:39:42,509 - root - INFO - Analyzing colors...
+2025-04-04 01:39:42,725 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #462846
+2025-04-04 01:39:42,725 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #332433
+2025-04-04 01:39:42,725 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #462846
+2025-04-04 01:39:42,726 - root - INFO - Colors updated
+2025-04-04 01:39:44,729 - root - INFO - Capturing image...
+2025-04-04 01:39:44,765 - root - INFO - Analyzing colors...
+2025-04-04 01:39:44,952 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #472946
+2025-04-04 01:39:44,952 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #454729
+2025-04-04 01:39:44,954 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #294647
+2025-04-04 01:39:44,954 - root - INFO - Colors updated
+2025-04-04 01:39:46,964 - root - INFO - Capturing image...
+2025-04-04 01:39:46,999 - root - INFO - Analyzing colors...
+2025-04-04 01:39:47,189 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #472946
+2025-04-04 01:39:47,190 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #47293c
+2025-04-04 01:39:47,190 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #472934
+2025-04-04 01:39:47,191 - root - INFO - Colors updated
+2025-04-04 01:39:49,201 - root - INFO - Capturing image...
+2025-04-04 01:39:49,250 - root - INFO - Analyzing colors...
+2025-04-04 01:39:49,481 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #4c293a
+2025-04-04 01:39:49,481 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #33232b
+2025-04-04 01:39:49,482 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #4c293a
+2025-04-04 01:39:49,483 - root - INFO - Colors updated
+2025-04-04 01:39:51,622 - root - INFO - Capturing image...
+2025-04-04 01:39:51,685 - root - INFO - Analyzing colors...
+2025-04-04 01:39:51,970 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #4c2c4c
+2025-04-04 01:39:51,970 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #4b4c2c
+2025-04-04 01:39:51,971 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2c4c4c
+2025-04-04 01:39:51,971 - root - INFO - Colors updated
+2025-04-04 01:39:53,978 - root - INFO - Capturing image...
+2025-04-04 01:39:54,068 - root - INFO - Analyzing colors...
+2025-04-04 01:39:54,346 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #a61b1b
+2025-04-04 01:39:54,347 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #a6451b
+2025-04-04 01:39:54,347 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #a66e1b
+2025-04-04 01:39:54,349 - root - INFO - Colors updated
+2025-04-04 01:39:56,361 - root - INFO - Capturing image...
+2025-04-04 01:39:56,396 - root - INFO - Analyzing colors...
+2025-04-04 01:39:56,564 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #7b1717
+2025-04-04 01:39:56,565 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #7b3517
+2025-04-04 01:39:56,565 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #7b5317
+2025-04-04 01:39:56,566 - root - INFO - Colors updated
+2025-04-04 01:39:58,578 - root - INFO - Capturing image...
+2025-04-04 01:39:58,612 - root - INFO - Analyzing colors...
+2025-04-04 01:39:58,855 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #7a1717
+2025-04-04 01:39:58,857 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #602020
+2025-04-04 01:39:58,857 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #7a1717
+2025-04-04 01:39:58,858 - root - INFO - Colors updated
+2025-04-04 01:40:00,865 - root - INFO - Capturing image...
+2025-04-04 01:40:00,911 - root - INFO - Analyzing colors...
+2025-04-04 01:40:01,163 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #2a292b
+2025-04-04 01:40:01,164 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #2a292b
+2025-04-04 01:40:01,165 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #2b292a
+2025-04-04 01:40:01,165 - root - INFO - Colors updated
+2025-04-04 01:41:51,354 - root - INFO - Ready
+2025-04-04 01:41:53,538 - root - INFO - Initializing wallpaper capture for Windows (Screenshot mode: True)
+2025-04-04 01:41:53,538 - root - INFO - Initializing AI-based color analyzer to extract 5 colors using kmeans
+2025-04-04 01:41:53,539 - root - INFO - Initializing light controller for hue lights
+2025-04-04 01:41:53,539 - root - INFO - Running in demo mode - no actual lights will be controlled
+2025-04-04 01:41:53,539 - root - INFO - Application running
+2025-04-04 01:41:53,540 - root - INFO - Capturing image...
+2025-04-04 01:41:54,519 - root - INFO - Analyzing colors...
+2025-04-04 01:41:54,779 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #312432
+2025-04-04 01:41:54,779 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #253224
+2025-04-04 01:41:54,780 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #32242f
+2025-04-04 01:41:54,781 - root - INFO - Colors updated
+2025-04-04 01:41:55,544 - root - INFO - Capturing image...
+2025-04-04 01:41:55,586 - root - INFO - Analyzing colors...
+2025-04-04 01:41:55,852 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #28272a
+2025-04-04 01:41:55,853 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #292a27
+2025-04-04 01:41:55,853 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #28272a
+2025-04-04 01:41:55,853 - root - INFO - Colors updated
+2025-04-04 01:41:57,595 - root - INFO - Capturing image...
+2025-04-04 01:41:57,633 - root - INFO - Analyzing colors...
+2025-04-04 01:41:57,814 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #771617
+2025-04-04 01:41:57,815 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #773116
+2025-04-04 01:41:57,815 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #774e16
+2025-04-04 01:41:57,816 - root - INFO - Colors updated
+2025-04-04 01:41:59,663 - root - INFO - Capturing image...
+2025-04-04 01:41:59,697 - root - INFO - Analyzing colors...
+2025-04-04 01:41:59,932 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #381f32
+2025-04-04 01:41:59,932 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #33232f
+2025-04-04 01:41:59,932 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #381f32
+2025-04-04 01:41:59,934 - root - INFO - Colors updated
+2025-04-04 01:42:01,680 - root - INFO - Capturing image...
+2025-04-04 01:42:01,722 - root - INFO - Analyzing colors...
+2025-04-04 01:42:01,955 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #341d33
+2025-04-04 01:42:01,956 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #341d2c
+2025-04-04 01:42:01,956 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #341d25
+2025-04-04 01:42:01,956 - root - INFO - Colors updated
+2025-04-04 01:42:03,702 - root - INFO - Capturing image...
+2025-04-04 01:42:03,747 - root - INFO - Analyzing colors...
+2025-04-04 01:42:03,957 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #492845
+2025-04-04 01:42:03,958 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #332431
+2025-04-04 01:42:03,958 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #492845
+2025-04-04 01:42:03,959 - root - INFO - Colors updated
+2025-04-04 01:42:05,810 - root - INFO - Capturing image...
+2025-04-04 01:42:05,844 - root - INFO - Analyzing colors...
+2025-04-04 01:42:06,024 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #492846
+2025-04-04 01:42:06,025 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #49283c
+2025-04-04 01:42:06,025 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #492832
+2025-04-04 01:42:06,026 - root - INFO - Colors updated
+2025-04-04 01:42:08,040 - root - INFO - Capturing image...
+2025-04-04 01:42:08,089 - root - INFO - Analyzing colors...
+2025-04-04 01:42:08,293 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #492845
+2025-04-04 01:42:08,293 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #49283b
+2025-04-04 01:42:08,294 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #492831
+2025-04-04 01:42:08,295 - root - INFO - Colors updated
+2025-04-04 01:42:09,931 - root - INFO - Capturing image...
+2025-04-04 01:42:09,963 - root - INFO - Analyzing colors...
+2025-04-04 01:42:10,141 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #492845
+2025-04-04 01:42:10,142 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #493c28
+2025-04-04 01:42:10,142 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #28492c
+2025-04-04 01:42:10,143 - root - INFO - Colors updated
+2025-04-04 01:42:11,992 - root - INFO - Capturing image...
+2025-04-04 01:42:12,031 - root - INFO - Analyzing colors...
+2025-04-04 01:42:12,231 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #492845
+2025-04-04 01:42:12,232 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #454928
+2025-04-04 01:42:12,232 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #284549
+2025-04-04 01:42:12,234 - root - INFO - Colors updated
+2025-04-04 01:42:14,088 - root - INFO - Capturing image...
+2025-04-04 01:42:14,129 - root - INFO - Analyzing colors...
+2025-04-04 01:42:14,307 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #492845
+2025-04-04 01:42:14,307 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #332431
+2025-04-04 01:42:14,308 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #492845
+2025-04-04 01:42:14,308 - root - INFO - Colors updated
+2025-04-04 01:42:16,160 - root - INFO - Capturing image...
+2025-04-04 01:42:16,195 - root - INFO - Analyzing colors...
+2025-04-04 01:42:16,385 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #492845
+2025-04-04 01:42:16,386 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #454928
+2025-04-04 01:42:16,386 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #284549
+2025-04-04 01:42:16,386 - root - INFO - Colors updated
+2025-04-04 01:42:18,246 - root - INFO - Capturing image...
+2025-04-04 01:42:18,300 - root - INFO - Analyzing colors...
+2025-04-04 01:42:18,612 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #482845
+2025-04-04 01:42:18,613 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #48283c
+2025-04-04 01:42:18,613 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #482833
+2025-04-04 01:42:18,613 - root - INFO - Colors updated
+2025-04-04 01:42:20,258 - root - INFO - Capturing image...
+2025-04-04 01:42:20,298 - root - INFO - Analyzing colors...
+2025-04-04 01:42:20,442 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #28272a
+2025-04-04 01:42:20,442 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #292a27
+2025-04-04 01:42:20,443 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #28272a
+2025-04-04 01:42:20,443 - root - INFO - Colors updated
+2025-04-04 01:42:22,303 - root - INFO - Capturing image...
+2025-04-04 01:42:22,347 - root - INFO - Analyzing colors...
+2025-04-04 01:42:22,485 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #28272a
+2025-04-04 01:42:22,486 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #28272a
+2025-04-04 01:42:22,486 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #29272a
+2025-04-04 01:42:22,487 - root - INFO - Colors updated
+2025-04-04 01:42:24,349 - root - INFO - Capturing image...
+2025-04-04 01:42:24,386 - root - INFO - Analyzing colors...
+2025-04-04 01:42:24,554 - root - INFO - Demo mode: Set light 0 (Demo Light 1) to color #28272a
+2025-04-04 01:42:24,555 - root - INFO - Demo mode: Set light 1 (Demo Light 2) to color #292a27
+2025-04-04 01:42:24,555 - root - INFO - Demo mode: Set light 2 (Demo Light 3) to color #28272a
+2025-04-04 01:42:24,556 - root - INFO - Colors updated

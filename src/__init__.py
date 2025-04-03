@@ -1,0 +1,3 @@
+"""
+Wallpaper Light package
+""" 
